@@ -1,0 +1,87 @@
+/*Código das Cores
+#134074
+#13315C
+#0B2545
+#8DA9C4
+#EEF4ED
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body .preheader{
+    background-color: white;
+}
+
+nav{
+    background-color: #bbbbbb;
+    padding: 2.5%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins";
+}
+
+.preheader{
+    padding: 0.5%;
+}
+
+.preheader a {
+    font-size: 0.9rem;
+}
+
+.preheader ul{
+    list-style-type: none; /*Remove a Bolinha que fica do lado esquerdo dos elementos da lista*/
+    display: flex; /*Organiza os elementos na horizontal*/
+    justify-content: flex-end;
+    gap: 10px; /*Um espaçamento entre os elementos*/
+
+    margin-right: 15%;
+}
+
+.preheader li{
+    padding-right: 10px;
+    border-right: 1px solid black;/*Cria a barra que fica entre as opções*/
+}
+
+.preheader li:last-child {
+  border-right: none; /* remove a última barrinha */
+}
+
+.s1 {
+    margin-top: 2.5%;
+    background-color: #bbbbbb;
+    padding: 3%;
+}
+
+h2 {
+    font-family: "Poppins";
+    font-size: 2.5rem;
+    color: black;
+}
+
+p {
+    color: black;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.div-s1 {
+    margin-left: 12%;
+    width: 30%;
+}
+
+.button-s1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1rem;
+
+    margin-top: 2%;
+    width: 75%;
+    padding: 2%;
+    border-radius: 50px;
+}
