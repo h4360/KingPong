@@ -15,7 +15,7 @@ body {
 
     display: flex;
     flex-direction: row;
-    background-color: aqua;
+    background-color: white;
     /*Centralizar Conteúdo*/
     /*display: flex;
     justify-content: center;
@@ -23,12 +23,13 @@ body {
 }
 
 .form {
-    position: relative;
+    /*position: relative;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
     background: white;
     padding: 30px;
+    border: black solid 4px;
     border-radius: 18px;
     width: 250px;
     align-items: center;
@@ -92,10 +93,14 @@ body {
     cursor: pointer;
 }
 
-#btn button:hover {
-    /*background: linear-gradient(45deg, #00296b, #ff0a54);*/
+.img-row {
+
+    height: 100vh;
 }
 
 .container-row {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
