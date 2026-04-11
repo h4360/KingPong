@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,37 +17,50 @@
     <title>Formulário</title>
 </head>
 
-<body class="container">
-    <div class="container-row">
-        
-    </div>
-    <div class="container-row">
-        <div class="form">
-            <form action="https://sheetdb.io/api/v1/wfxuy0l16ulox" method="post">
-                <h2 class="title">Cadastrar</h2>
-
-                <label for="username">Nome</label>
-                <div class="input">
-                    <i class="fa fa-user" aria-hidden="true"></i>
-                    <input id="username" name="data[nome]" placeholder="Nome" type="text">
-                </div>
-
-                <label for="email">Email</label>
-                <div class="input">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <input id="email" name="data[email]" placeholder="Email" type="text">
-                </div>
-
-                <label for="password">Senha</label>
-                <div class="input">
-                    <i class="fa fa-lock" aria-hidden="true"></i>
-                    <input id="password" name="data[senha]" placeholder="Senha" type="password">
-                </div>
-
-                <div id="btn">
-                    <button type="submit">Cadastrar</button>
-                </div>
-            </form>
+<body>
+    <header>
+        <div class="pre-nav">
+            <ul>
+                <li><a href="...">Ajuda</a></li>
+                <li><a href="...">Entrar</a></li>
+            </ul>
+        </div>
+        <nav>
+            <h1>KingPong</h1>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="container-row">
+            <div class="img-row"></div>
+        </div>
+        <div class="container-row" style="width: 70%;">
+            <div class="form">
+                <form action="https://sheetdb.io/api/v1/wfxuy0l16ulox" method="post">
+                    <h2 class="title">Cadastrar</h2>
+    
+                    <label for="username">Nome</label>
+                    <div class="input">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input id="username" name="data[nome]" placeholder="Nome" type="text">
+                    </div>
+    
+                    <label for="email">Email</label>
+                    <div class="input">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input id="email" name="data[email]" placeholder="Email" type="text">
+                    </div>
+    
+                    <label for="password">Senha</label>
+                    <div class="input">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <input id="password" name="data[senha]" placeholder="Senha" type="password">
+                    </div>
+    
+                    <div id="btn">
+                        <button type="submit">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </body>

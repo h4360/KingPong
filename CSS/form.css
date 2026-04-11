@@ -2,20 +2,11 @@
 /*#00296b*/
 /*#ff0a54*/
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     width: 100%;
     height: 100vh;
     
     font-family: "Poppins", sans-serif;
-
-    display: flex;
-    flex-direction: row;
-    background-color: white;
     /*Centralizar Conteúdo*/
     /*display: flex;
     justify-content: center;
@@ -29,7 +20,7 @@ body {
     transform: translate(-50%, -50%);*/
     background: white;
     padding: 30px;
-    border: black solid 4px;
+    border: solid #134074 5px;
     border-radius: 18px;
     width: 250px;
     align-items: center;
@@ -93,13 +84,23 @@ body {
     cursor: pointer;
 }
 
-.img-row {
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
 
+.img-row {
+    background-image: url('../IMG/ivan-cortez-c9aGBqkeoE4-unsplash\ \(1\).jpg');
+    width: 100%;
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container-row {
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
