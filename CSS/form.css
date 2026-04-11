@@ -1,0 +1,101 @@
+/*#03071e*/
+/*#00296b*/
+/*#ff0a54*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    
+    font-family: "Poppins", sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    /*Centralizar Conteúdo*/
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.form {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    width: 250px;
+    align-items: center;
+    color: #03071e;
+    /*Chamando a animação iniciar*/
+    animation: iniciar 1.6s ease-out;
+    pointer-events: all;
+}
+
+.title {
+    font-size: 1.8rem;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.input {
+    min-width: 200px;
+    border-radius: 22px;
+    border: 1.5px, #03071e solid;
+    padding: 5px;
+    margin: 0px 0px 12px -7px;
+    /*(top, right, bottom, left)*/
+}
+
+.input i {
+    /*Personalizando os icones*/
+    font-size: 0.9rem;
+    padding: 5px;
+    background-color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input input {
+    width: 80%;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    /*transform: translateY(-5%);*/
+    color: #03071e;
+    font-size: 11pt;
+}
+
+#btn {
+    margin-top: 8%;
+    width: 100%;
+    text-align: center;
+}
+
+#btn button {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: solid 2px black;
+    outline: none;
+    cursor: pointer;
+}
+
+#btn button:hover {
+    /*background: linear-gradient(45deg, #00296b, #ff0a54);*/
+}
+
+.container-row {
+    width: 50%;
+}
