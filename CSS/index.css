@@ -39,17 +39,6 @@ p {
     width: 30%;
 }
 
-.button-s1{
-    font-family: "Poppins";
-    font-weight: 600;
-    font-size: 1rem;
-
-    margin-top: 2%;
-    width: 75%;
-    padding: 2%;
-    border-radius: 50px;
-}
-
 #erroBanco {
     display: none;
     background-color: #ffe6e6;
