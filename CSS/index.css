@@ -11,9 +11,12 @@
 }
 
 .s1 {
-    margin-top: 2.5%;
     background-color: #bbbbbb;
-    padding: 3%;
+}
+  
+.div-descr {
+  margin-left: 12%;
+  width: 30%;
 }
 
 h2 {
@@ -32,11 +35,6 @@ p {
     color: black;
     font-family: "Poppins";
     font-weight: 400;
-}
-
-.div-s1 {
-    margin-left: 12%;
-    width: 30%;
 }
 
 #erroBanco {
@@ -78,3 +76,13 @@ p {
     display: block;
     opacity: 1;
   }
+
+.button-BlaCK {
+    color: black;
+    border: solid black;
+}
+
+.button-BlaCK:hover {
+    color: white;
+    background-color: black;
+}

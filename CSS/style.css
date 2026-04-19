@@ -9,23 +9,31 @@ body {
 
 header{
     position: fixed;
-    z-index: 1;
+    top: 0%;
+    left: 0%;
     width: 100%;
     color: white;
 }
 
+main {
+    margin-top: 12.5%;
+}
+
 nav h1 {
+    font-family: "Poppins";
     font-size: 2.5rem;
     color: white;
 }
 
 nav {
     border-bottom: 15px solid #134074;
-    
     background-color: #0b2545;
     padding: 1.8%;
 }
 
+nav div {
+    background-color: white;
+}
 
 .pre-nav{
     background-color: white;
@@ -54,4 +62,27 @@ a {
     color: black;
     text-decoration: none;
     font-family: "Poppins";
+}
+
+section {
+    background-color: aquamarine;
+    margin-top: 20px;
+    padding: 3%;
+}
+
+
+.button-BlaCK{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1rem;
+    /*color: white;*/
+
+    margin-top: 1%;
+    width: 30%;
+    padding: 1%;
+    background-color: transparent;
+    /*border: solid white;*/
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }

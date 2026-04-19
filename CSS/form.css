@@ -126,23 +126,12 @@ p {
     font-style: italic;
 }
 
-.button-Cadastro{
-    font-family: "Poppins";
-    font-weight: 600;
-    font-size: 1rem;
+.button-BlaCK {
     color: white;
-
-    margin-top: 1%;
-    width: 30%;
-    padding: 1%;
-    background-color: transparent;
     border: solid white;
-    border-radius: 30px;
-    transition-duration: 0.4s;
-    cursor: pointer;
 }
 
-.button-Cadastro:hover {
+.button-BlaCK:hover {
     color: black;
     background-color: white;
 }
