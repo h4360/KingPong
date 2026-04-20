@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -16,7 +17,7 @@ header{
 }
 
 main {
-    margin-top: 12.5%;
+    margin-top: 200px;
 }
 
 nav h1 {
@@ -28,7 +29,7 @@ nav h1 {
 nav {
     border-bottom: 15px solid #134074;
     background-color: #0b2545;
-    padding: 1.8%;
+    padding: 30px;
 }
 
 nav div {
@@ -37,7 +38,7 @@ nav div {
 
 .pre-nav{
     background-color: white;
-    padding: 0.5%;
+    padding: 10px;
     font-size: 0.9rem;
 }
 
